@@ -7,7 +7,7 @@ FileUtils.mkdir ARGV[0] + '/lib'
 FileUtils.mkdir ARGV[0] + '/spec'
 
 FileUtils.touch ARGV[0] + '/spec/' + ARGV[0] + '_spec.rb'
-FileUtils.touch ARGV[0] + '/lib/' + ARGV[0] + '_lib.rb'
+FileUtils.touch ARGV[0] + '/lib/' + ARGV[0] + '.rb'
 
 # FileUtils.touch ARGV[0] + '/Gemfile'
 
