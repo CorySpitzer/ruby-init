@@ -16,6 +16,6 @@ File.open ARGV[0] + '/Gemfile', 'w' do |file|
 end
 # also File.write("log.txt", "data...")
 
-File.write(ARGV[0] + '/lib/' + ARGV[0] + '_lib.rb', "class\n\nend")
+File.write(ARGV[0] + '/lib/' + ARGV[0] + '.rb', "class\n\nend")
 File.write(ARGV[0] + '/spec/' + ARGV[0] + '_spec.rb',
            "require 'rspec'\nrequire " + "'" + ARGV[0] + "'")
