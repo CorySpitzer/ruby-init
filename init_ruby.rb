@@ -18,4 +18,7 @@ end
 
 File.write(ARGV[0] + '/lib/' + ARGV[0] + '.rb', "class\n\nend")
 File.write(ARGV[0] + '/spec/' + ARGV[0] + '_spec.rb',
-           "require 'rspec'\nrequire " + "'" + ARGV[0] + "'")
+           "require 'rspec'\nrequire " + "'" + ARGV[0] + "'\n\n" +
+           "describe '' do
+    it('')
+end")
